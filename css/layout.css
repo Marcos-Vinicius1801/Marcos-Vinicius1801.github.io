@@ -1,61 +1,109 @@
-div {
+/* div {
     padding: 0
-}
+} */
 
 .personal-information {
     background: #11212a;
-    color: #C3D9F2;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
-    height: 103.5rem;
-    width: 20.2rem;
-    padding-left:0;
+    font-size: 1em;
+    height: 109.5rem;
+    width: 17rem; 
+    text-align: center;
+    /* border: 1px solid green; */
+    /* padding-bottom: 30px; */
+ 
+}
+.education h5{
+    color:#ea5659;
 }
 
 .personal-information p span {
     color: #ea5659;
     font-family: 'Open Sans', sans-serif;
     font-size: .938em;
-    max-width: 500px;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 0px;
+    font-weight: 600;
+
+}
+.personal-information #linkedin img, .personal-information #github img {
+    /* color: #ea5659; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: .938em;
+    max-width: 300px;
     text-align: left;
-    margin-left: 10px
+    margin-right: 10px;
+    margin-top: 5px;
+    /* width:63px;
+    height:50px; */
+    /* border:1px solid yellow; */
 }
 
-.personal-information p span,
-blockquote,
-img {
-    margin-left: 25px
-}
-
-.personal-information blockquote {
-    color: #C3D9F2
+.personal-information #bkt{
+    color: #fff;
+    /* width: 100px; */
+    border-left:none;
+    text-align: center;
 }
 
 #profile-picture {
     border: 4px solid #ea5659;
     border-radius: 100%;
-    margin: 40px 30px
+    margin: 30px 0px 0px 30px;
+    width:170px;
+    height: 170px
 }
 
 .personal-information a {
-    color: #fff;
-    text-align: center
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size:.889em;
+    margin-top: 55px;
 }
 
 .personal-information #name {
     font-family: 'Syncopate', sans-serif;
     color: #fff;
-    padding: 25px 0 0 25px;
-    text-align: left;
-    font-size: .938em
+    padding: 25px 0 0 0px;
+    text-align: center;
+    font-size: .789em;
+   
 }
 
 #github {
     margin-top: 10px
 }
 
-h5 {
-    color: #034a60;
-    font-weight: 700
+.habilities{
+    font-size:1.063em;
+    font-weight: 500;
+    font-family: 'Be Vietnam', sans-serif;
+    /* margin-left: 15px; */
+    /* border:1px solid yellow; */
+    width: 400px !important;
+    margin-left: 5px !important;
+    
+}
+.habilities p{
+    margin-left: 75px;
+    font-size: 1.063em;
+    font-family:'Be Vietnam', sans-serif;
+}
+.list-habilities{
+    margin-left: 65px;
+    /* border: 1px solid pink; */
+    width: 270px;
+}
+.list-habilities img[src^="./img"]{
+    /* border:1px solid green; */
+}
+.habilities .institution{
+    color:#034a60
+}
+.habilities h5 {
+    color: #ea5659;
 }
 
 .job-experience,
@@ -95,21 +143,42 @@ h5 {
     margin: 0 40px 10px 74px
 }
 
-.job-experience .occupation {
-    padding-top: 15px;
-    padding-left: 20px;
-    width: 700px;
+.occupation {
+    margin-left: 15px;
+    width: 500px;
+    /* border:1px solid green; */
 }
-.job ul li{
+.education{
+    font-size:1.063em;
+    font-weight: 500;
+    font-family: 'Be Vietnam', sans-serif;
+    margin-left: 15px;
+    /* border:1px solid rgb(31, 143, 107); */
+    width: 400px;
+    /* padding-left: 20px; */
+}
+.education p{
+    font-family: 'Be Vietnam', sans-serif;
+    width: 450px;
+    /* border:1px solid pink; */
+    margin-left: 75px;
+}
+.education ul li{
+    font-size:1.063em;
     list-style: none;
     padding-top: 15px;
+    font-family: 'Be Vietnam', sans-serif;
+    margin-left: 75px;
+    /* border:1px solid purple; */
+    width: 450px;
 }
 .job-data{
     color:#034a60;
-    font-weight: bold;
+    font-weight: lighter;
+    font-family: 'Be Vietnam', sans-serif;
 }
 
-.language p img {
+.education  p img {
     padding: 7px 20px 7px 20px
 }
 
@@ -126,26 +195,13 @@ h5 {
 .education-platforms h5{
 	margin-left: 0px;
 }
-
-.education {
-    min-width: 400px
-}
-
-.certificates p {
-    padding-top: 5px;
-    max-width: 500px;
-  
-}
-
-.education-platforms span {
-    color: #111;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400
-}
-
-.certificates p,
 .education-platforms p {
-    font-size: 1.063em
+    font-size: 1.063em;
+}
+
+.habilities .institution span{
+    color:#161616;
+    /* font-weight: 600; */
 }
 
 @-webkit-keyframes bounce {
@@ -178,6 +234,7 @@ h5 {
     }
 }
 
+@media and (min)
 @keyframes bounce {
     from,
     20%,
