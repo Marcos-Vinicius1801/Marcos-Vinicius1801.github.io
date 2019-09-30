@@ -1,5 +1,5 @@
 $('.personal-information #profile-picture')
-      .mouseover(function(){
+      .mouseenter(function(){
         $(this).addClass('animated shake');  
       })
       .mouseout(function(){
@@ -7,7 +7,7 @@ $('.personal-information #profile-picture')
       });
 
 $('h5 img')
-        .mouseover(function(){
+        .mouseenter(function(){
         $(this).addClass('animated rubberBand');  
         })
         .mouseout(function(){
