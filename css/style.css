@@ -1,1 +1,511 @@
-@-webkit-keyframes rubberBand{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes rubberBand{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}.rubberBand{-webkit-animation-name:rubberBand;animation-name:rubberBand}@-webkit-keyframes shake{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}.shake{-webkit-animation-name:shake;animation-name:shake}.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.animated.delay-1s{-webkit-animation-delay:1s;animation-delay:1s}.animated.delay-2s{-webkit-animation-delay:2s;animation-delay:2s}.animated.delay-3s{-webkit-animation-delay:3s;animation-delay:3s}.animated.delay-4s{-webkit-animation-delay:4s;animation-delay:4s}.animated.delay-5s{-webkit-animation-delay:5s;animation-delay:5s}.animated.fast{-webkit-animation-duration:.8s;animation-duration:.8s}.animated.faster{-webkit-animation-duration:.5s;animation-duration:.5s}.animated.slow{-webkit-animation-duration:2s;animation-duration:2s}.animated.slower{-webkit-animation-duration:3s;animation-duration:3s}@media (prefers-reduced-motion){.animated{-webkit-animation:unset!important;animation:unset!important;-webkit-transition:none!important;transition:none!important}}@media screen and (max-width:600px){body{font-size:.82em;font-family:'Open Sans',sans-serif;font-weight:600;color:#575656}.personal-information p span{color:#ea5659;font-weight:600}h5{font-size:1.6em;color:#ea5659}h5>img{width:50px;height:50px}.row{margin-bottom:0}#name{font-size:1em;letter-spacing:2px;font-family:'Be Vietnam',sans-serif;margin:auto;display:block;padding-top:15px}.pi{background-color:#11212a;font-weight:200;color:#dad6d6;margin:auto;display:block;text-align:center;font-size:.99em}.pi.personal-information .bkt{text-align:center;max-width:300px;padding:0}blockquote{border-left:3px solid #ea5659}#profile-picture,.pi.personal-information{height:150px;width:150px;border-radius:100%;border:4px solid #ea5659;margin:21px auto;display:block}.pi a{color:#dad6d6;font-size:.87em;margin:auto}.m5,.row .a .col{width:11,666%}.wrap-education>p{width:90%}.wrap-experience>p{width:90%}.wrap-experience>ul li{width:90%;line-height:1.5em;margin:10px 0 10px 0}.wrap-experience>.job-data{color:#ea5659;font-weight:700}.list-habilities{max-width:200px}.list-habilities img{width:55px;height:55px}}@media screen and (min-width:601px)and (max-width:991px){body{font-size:.82em;font-family:'Open Sans',sans-serif;font-weight:600;color:#575656}.personal-information p span{color:#ea5659;font-weight:600}h5{font-size:1.6em;color:#ea5659}h5>img{width:50px;height:50px}.row{margin-bottom:0}#name{font-size:1em;letter-spacing:2px;font-family:'Be Vietnam',sans-serif;margin:auto;display:block;padding-top:15px}.pi{background-color:#11212a;height:120rem;font-weight:200;color:#dad6d6;margin:auto;display:block;text-align:center;font-size:.99em}.pi.personal-information .bkt{text-align:center;max-width:300px;padding:0}blockquote{border-left:3px solid #ea5659}#profile-picture,.pi.personal-information{height:120px;width:120px;border-radius:100%;border:4px solid #ea5659;margin:21px auto;display:block}.pi a{color:#dad6d6;font-size:.87em;margin:auto}.m5,.row .a .col{width:11,666%}.wrap-education>p{width:90%}.wrap-experience>p{width:90%}.wrap-experience>ul li{width:90%;line-height:1.5em;margin:10px 0 10px 0}.wrap-experience>.job-data{color:#ea5659;font-weight:700}.list-habilities{max-width:200px}.list-habilities img{width:35px;height:35px}}@media screen and (min-width:992px)and (max-width:1200px){body{font-size:1em;font-family:'Open Sans',sans-serif;font-weight:600;color:#575656}.personal-information p span{color:#ea5659;font-weight:600}h5{font-size:1.6em;color:#ea5659}h5>img{width:70px;height:70px}.row{margin-bottom:0}#name{font-size:1em;letter-spacing:2px;font-family:'Be Vietnam',sans-serif;margin:auto;display:block;padding-top:15px}.pi{background-color:#11212a;height:120rem;font-weight:200;color:#dad6d6;margin:auto;display:block;text-align:center;font-size:.99em}.pi.personal-information .bkt{text-align:center;max-width:300px;padding:0}blockquote{border-left:3px solid #ea5659}#profile-picture,.pi.personal-information{height:140px;width:140px;border-radius:100%;border:4px solid #ea5659;margin:21px auto;display:block}.pi a{color:#dad6d6;font-size:.87em;margin:auto}.m5,.row .a .col{width:21,666%}.wrap-education>p{width:90%}.wrap-experience>p{width:90%}.wrap-experience>ul li{width:90%;line-height:2.5em;margin:15px 0 15px 0}.wrap-experience>.job-data{color:#ea5659;font-weight:700}.list-habilities{max-width:280px}.list-habilities img{width:55px;height:55px}}@media screen and (min-width:1201px) and (max-width:2560px){body{font-size:1.1em;font-family:'Open Sans',sans-serif;font-weight:600;color:#575656}.personal-information p span{color:#ea5659;font-weight:600}h5{font-size:1.3em;color:#ea5659}h5>img{width:60px;height:60px}.row{margin-bottom:0}#name{font-size:1em;letter-spacing:2px;font-family:'Be Vietnam',sans-serif;margin:auto;display:block;padding-top:15px}.pi{background-color:#11212a;height:180rem;font-weight:200;color:#dad6d6;margin:auto;display:block;text-align:center;font-size:.99em}.pi.personal-information .bkt{text-align:center;max-width:300px;padding:0}blockquote{border-left:3px solid #ea5659}#profile-picture,.pi.personal-information{height:1 60px;width:160px;border-radius:100%;border:4px solid #ea5659;margin:21px auto;display:block}.pi a{color:#dad6d6;font-size:.87em;margin:auto}.row .a .col,.xl5{width:11,666%}.wrap-education>p{width:90%}.wrap-experience>p{width:90%}.wrap-experience>ul li{width:90%;line-height:2.5em;margin:15px 0 15px 0}.wrap-experience>.job-data{color:#ea5659;font-weight:700}.list-habilities{max-width:400px}.list-habilities img{width:65px;height:65px}}
+
+@-webkit-keyframes rubberBand{
+    from{
+       -webkit-transform:scale3d(1,1,1);
+       transform:scale3d(1,1,1)
+   }
+    30%{
+       -webkit-transform:scale3d(1.25,.75,1);
+       transform:scale3d(1.25,.75,1)
+   }
+    40%{
+       -webkit-transform:scale3d(.75,1.25,1);
+       transform:scale3d(.75,1.25,1)
+   }
+    50%{
+       -webkit-transform:scale3d(1.15,.85,1);
+       transform:scale3d(1.15,.85,1)
+   }
+    65%{
+       -webkit-transform:scale3d(.95,1.05,1);
+       transform:scale3d(.95,1.05,1)
+   }
+    75%{
+       -webkit-transform:scale3d(1.05,.95,1);
+       transform:scale3d(1.05,.95,1)
+   }
+    to{
+       -webkit-transform:scale3d(1,1,1);
+       transform:scale3d(1,1,1)
+   }
+}
+@keyframes rubberBand{
+    from{
+       -webkit-transform:scale3d(1,1,1);
+       transform:scale3d(1,1,1)
+   }
+    30%{
+       -webkit-transform:scale3d(1.25,.75,1);
+       transform:scale3d(1.25,.75,1)
+   }
+    40%{
+       -webkit-transform:scale3d(.75,1.25,1);
+       transform:scale3d(.75,1.25,1)
+   }
+    50%{
+       -webkit-transform:scale3d(1.15,.85,1);
+       transform:scale3d(1.15,.85,1)
+   }
+    65%{
+       -webkit-transform:scale3d(.95,1.05,1);
+       transform:scale3d(.95,1.05,1)
+   }
+    75%{
+       -webkit-transform:scale3d(1.05,.95,1);
+       transform:scale3d(1.05,.95,1)
+   }
+    to{
+       -webkit-transform:scale3d(1,1,1);
+       transform:scale3d(1,1,1)
+   }
+}
+.rubberBand{
+    -webkit-animation-name:rubberBand;
+    animation-name:rubberBand
+}
+@-webkit-keyframes shake{
+   from,to{
+       -webkit-transform:translate3d(0,0,0);
+       transform:translate3d(0,0,0)
+   }
+   10%,30%,50%,70%,90%{
+       -webkit-transform:translate3d(-10px,0,0);
+       transform:translate3d(-10px,0,0)
+   }
+   20%,40%,60%,80%{
+       -webkit-transform:translate3d(10px,0,0);
+       transform:translate3d(10px,0,0)
+   }
+}
+@keyframes shake{
+   from,to{
+       -webkit-transform:translate3d(0,0,0);
+       transform:translate3d(0,0,0)
+   }
+   10%,30%,50%,70%,90%{
+       -webkit-transform:translate3d(-10px,0,0);
+       transform:translate3d(-10px,0,0)
+   }
+   20%,40%,60%,80%{
+       -webkit-transform:translate3d(10px,0,0);
+       transform:translate3d(10px,0,0)
+   }
+}
+.shake{
+   -webkit-animation-name:shake;
+   animation-name:shake
+}
+.animated{
+   -webkit-animation-duration:1s;
+   animation-duration:1s;
+   -webkit-animation-fill-mode:both;
+   animation-fill-mode:both
+}
+.animated.infinite{
+   -webkit-animation-iteration-count:infinite;
+   animation-iteration-count:infinite
+}
+.animated.delay-1s{
+   -webkit-animation-delay:1s;
+   animation-delay:1s
+}
+.animated.delay-2s{
+   -webkit-animation-delay:2s;
+   animation-delay:2s
+}
+.animated.delay-3s{
+   -webkit-animation-delay:3s;
+   animation-delay:3s
+}
+.animated.delay-4s{
+   -webkit-animation-delay:4s;
+   animation-delay:4s
+}
+.animated.delay-5s{
+   -webkit-animation-delay:5s;
+   animation-delay:5s
+}
+.animated.fast{
+   -webkit-animation-duration:.8s;
+   animation-duration:.8s
+}
+.animated.faster{
+   -webkit-animation-duration:.5s;
+   animation-duration:.5s
+}
+.animated.slow{
+   -webkit-animation-duration:2s;
+   animation-duration:2s
+}
+.animated.slower{
+   -webkit-animation-duration:3s;
+   animation-duration:3s
+}
+.institution{
+  color:#ea5659;
+}
+span{
+  color:#575656;
+}
+@media (prefers-reduced-motion){
+   .animated{
+       -webkit-animation:unset!important;
+       animation:unset!important;
+       -webkit-transition:none!important;
+       transition:none!important
+   }
+}
+@media screen and (max-width:600px){
+   body{
+       font-size:.82em;
+       font-family:'Open Sans',sans-serif;
+       font-weight:600;
+       color:#575656
+   }
+   .personal-information p span{
+       color:#ea5659;
+       font-weight:600
+   }
+   h5{
+       font-size:1.6em;
+       color:#ea5659
+   }
+   h5>img{
+       width:50px;
+       height:50px
+   }
+   .row{
+       margin-bottom:0
+   }
+   #name{
+       font-size:1em;
+       letter-spacing:2px;
+       font-family:'Be Vietnam',sans-serif;
+       margin:auto;
+       display:block;
+       padding-top:15px
+   }
+   .pi{
+       background-color:#11212a;
+       font-weight:200;
+       color:#dad6d6;
+       margin:auto;
+       display:block;
+       text-align:center;
+       font-size:.99em;
+       
+   }
+   .pi.personal-information .bkt{
+       text-align:center;
+       max-width:300px;
+       padding:0
+   }
+   blockquote{
+       border-left:3px solid #ea5659
+   }
+   #profile-picture,.pi.personal-information{
+       height:150px;
+       width:150px;
+       border-radius:100%;
+       border:4px solid #ea5659;
+       margin:21px auto;
+       display:block
+   }
+   .pi a{
+       color:#dad6d6;
+       font-size:.87em;
+       margin:auto
+   }
+   .m5,.row .a .col{
+       width:11,666%
+   }
+   .wrap-education>p{
+       width:90%
+   }
+   .wrap-experience>p{
+       width:90%
+   }
+   .wrap-experience>ul li{
+       width:90%;
+       line-height:1.5em;
+       margin:10px 0 10px 0
+   }
+   .wrap-experience>.job-data{
+       color:#ea5659;
+       font-weight:700
+   }
+   .list-habilities{
+       max-width:100%
+   }
+   .list-habilities img{
+       width:55px !important;
+       height:55px !important;
+       /* padding: 5px 5px 5px 5px; */
+   }
+}
+@media screen and (min-width:601px)and (max-width:991px){
+   body{
+       font-size:.82em;
+       font-family:'Open Sans',sans-serif;
+       font-weight:600;
+       color:#575656
+   }
+   .personal-information p span{
+       color:#ea5659;
+       font-weight:600
+   }
+   h5{
+       font-size:1.6em;
+       color:#ea5659
+   }
+   h5>img{
+       width:50px;
+       height:50px
+   }
+   .row{
+       margin-bottom:0
+   }
+   #name{
+       font-size:1em;
+       letter-spacing:2px;
+       font-family:'Be Vietnam',sans-serif;
+       margin:auto;
+       display:block;
+       padding-top:15px
+   }
+   .pi{
+       background-color:#11212a;
+       height:120rem;
+       font-weight:200;
+       color:#dad6d6;
+       margin:auto;
+       display:block;
+       text-align:center;
+       font-size:.99em;
+       
+   }
+   .pi.personal-information .bkt{
+       text-align:center;
+       max-width:300px;
+       padding:0
+   }
+   blockquote{
+       border-left:3px solid #ea5659
+   }
+   #profile-picture,.pi.personal-information{
+       height:120px;
+       width:120px;
+       border-radius:100%;
+       border:4px solid #ea5659;
+       margin:21px auto;
+       display:block
+   }
+   .pi a{
+       color:#dad6d6;
+       font-size:.87em;
+       margin:auto
+   }
+   .m5,.row .a .col{
+       width:11,666%
+   }
+   .wrap-education>p{
+       width:90%
+   }
+   .wrap-experience>p{
+       width:90%
+   }
+   .wrap-experience>ul li{
+       width:90%;
+       line-height:1.5em;
+       margin:10px 0 10px 0
+   }
+   .wrap-experience>.job-data{
+       color:#ea5659;
+       font-weight:700
+   }
+   .list-habilities{
+       max-width:300px
+   }
+   .list-habilities img{
+      width:40px !important;
+      height:40px !important;
+   }
+}
+@media screen and (min-width:992px)and (max-width:1200px){
+   body{
+       font-size:1em;
+       font-family:'Open Sans',sans-serif;
+       font-weight:500 !important;
+       color:#575656
+   }
+   .personal-information p span{
+       color:#ea5659;
+       font-weight:600
+   }
+   h5{
+       font-size:1.6em;
+       color:#ea5659
+   }
+   h5>img{
+       width:70px;
+       height:70px
+   }
+   .row{
+       margin-bottom:0
+   }
+   #name{
+       font-size:1em;
+       letter-spacing:2px;
+       font-family:'Be Vietnam',sans-serif;
+       margin:auto;
+       display:block;
+       padding-top:15px
+   }
+   .pi{
+       background-color:#11212a;
+       height:120rem;
+       font-weight:200;
+       color:#dad6d6;
+       margin:auto;
+       display:block;
+       text-align:center;
+       font-size:.99em;
+       
+   }
+   .pi.personal-information .bkt{
+       text-align:center;
+       max-width:300px;
+       padding:0
+   }
+   blockquote{
+       border-left:3px solid #ea5659
+   }
+   #profile-picture,.pi.personal-information{
+       height:140px;
+       width:140px;
+       border-radius:100%;
+       border:4px solid #ea5659;
+       margin:21px auto;
+       display:block
+   }
+   .pi a{
+       color:#dad6d6;
+       font-size:.87em;
+       margin:auto
+   }
+   .m5,.row .a .col{
+       width:21,666%
+   }
+   .wrap-education>p{
+       width:90%
+   }
+   .wrap-experience>p{
+       width:90%
+   }
+   .wrap-experience>ul li{
+       width:90%;
+       line-height:2.5em;
+       margin:15px 0 15px 0
+   }
+   .wrap-experience>.job-data{
+       color:#ea5659;
+       font-weight:700
+   }
+   .list-habilities{
+       max-width:290px
+   }
+   .list-habilities img{
+    width:70px !important;
+    height:70px !important;
+   }
+}
+@media screen and (min-width:1201px) and (max-width:2560px){
+   body{
+       font-size:1.1em;
+       font-family:'Open Sans',sans-serif;
+       font-weight:500;
+       color:#575656
+   }
+   
+   .personal-information p span{
+       color:#ea5659;
+       font-weight:600
+   }
+   h5{
+       font-size:1.3em;
+       color:#ea5659
+   }
+   h5>img{
+       width:60px;
+       height:60px
+   }
+   .row{
+       margin-bottom:0
+   }
+   #name{
+       font-size:1em;
+       letter-spacing:2px;
+       font-family:'Be Vietnam',sans-serif;
+       margin:auto;
+       display:block;
+       padding-top:15px
+   }
+   .pi{
+       background-color:#11212a;
+       height:180rem;
+       font-weight:200;
+       color:#dad6d6;
+       margin:auto;
+       display:block;
+       text-align:center;
+       font-size:.99em;
+       
+
+  }
+   .pi.personal-information .bkt{
+       text-align:center;
+       max-width:300px;
+       padding:0
+   }
+   blockquote{
+       border-left:3px solid #ea5659
+   }
+   #profile-picture,.pi.personal-information{
+       height:1 60px;
+       width:160px;
+       border-radius:100%;
+       border:4px solid #ea5659;
+       margin:21px auto;
+       display:block
+   }
+   .pi a{
+       color:#dad6d6;
+       font-size:.87em;
+       margin:auto
+   }
+   .row .a .col,.xl5{
+       width:11,666%
+   }
+   .wrap-education>p{
+       width:90%
+   }
+   .wrap-experience>p{
+       width:90%
+   }
+   .wrap-experience>ul li{
+       width:90%;
+       line-height:2.5em;
+       margin:15px 0 15px 0
+   }
+   .wrap-experience>.job-data{
+       color:#ea5659;
+       font-weight:700
+   }
+   .list-habilities{
+       max-width:400px
+   }
+   .list-habilities img{
+    width:70px !important;
+    height:70px !important;
+   }
+}
